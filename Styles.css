@@ -7,6 +7,7 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -29,13 +30,23 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    cursor: pointer;
     /* margin-top: 1rem;
     margin-bottom: 1rem; */
 }
+
+.link-simple{
+    text-decoration: none;
+}
+
 .primary-link {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+}
+
+.primary-link:hover{
+    box-shadow: 0px 0px 5px #BE185D;
 }
 
 .secondary-link {
@@ -44,14 +55,21 @@ hr {
     border: 1px solid var(--primary-color);
 }
 
+.secondary-link:hover {
+    box-shadow: 0px 0px 5px #BE185D;
+}
+
 /** lists **/
 .list-non-bullet {
     list-style: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
 }
 
 .list-item-inline {
-    display: inline;
+    display: inline-block;
     padding: 0rem 0.5rem;
+    text-align: center;
 }
 
 /** Navigation **/
@@ -65,6 +83,8 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 .navigation .nav-pills {
@@ -77,16 +97,23 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    background-color: white;
 }
 
 /** header **/
 .hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
     padding: 1rem;
     padding-top: 5rem;
 }
 
 .hero .hero-img {
-    max-width: 150px;
+    max-width: 500px;
     display: block;
     margin: auto;
 }
@@ -130,7 +157,30 @@ hr {
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
+    margin-bottom: 0.5rem;
 }
 .footer ul {
     padding-inline-start: 0px;
 }
+
+.social-link {
+    display: inline-block;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+    background: #BE185D;
+    border-radius: 50%;
+    line-height: 2rem;
+    border: 1px solid white;
+    box-shadow: 4px 4px 11px rgb(157, 126, 165);
+}
+
+.social-link:hover {
+    color: var(--primary-color);
+    background-color: white;
+    box-shadow: 4px 4px 11px rgb(157, 126, 165);
+
+}
+
