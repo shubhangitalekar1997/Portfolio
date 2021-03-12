@@ -125,7 +125,11 @@ hr {
 
 }
 
-.hero .hero-heading .heading-inverted {
+.hero .hero-heading  {
+    color: var(--primary-color);
+}
+
+.heading-inverted {
     color: var(--primary-color);
 }
 
@@ -180,5 +184,11 @@ hr {
 .social-link:hover {
     color: var(--primary-color);
     background-color: white;
+}
+
+@media only screen and (max-width: 400px){
+    .hero-img{
+        max-width: 60%;
+    }
 }
 
