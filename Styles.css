@@ -108,17 +108,16 @@ hr {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    padding: 1rem;
-    padding-top: 5rem;
 }
 
 .hero .hero-img {
     max-width: 600px;
     display: block;
     margin: auto;
+    margin: 1.5rem 0px;
 }
 
-.hero .hero-heading {
+.hero-heading {
     padding-top: 1rem;
     text-align: center;
     color: var(--dark-gray);
