@@ -183,4 +183,8 @@ hr {
     background-color: white;
 }
 
-
+@media only screen and (max-width: 725px){
+    .hero-img{
+        max-width: 60%;
+    }
+}
