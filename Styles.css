@@ -8,7 +8,7 @@
     --dark-gray: #6B7280;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 0px;
 }
 
@@ -23,7 +23,7 @@ hr {
 }
 
 .container-center{
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -134,8 +134,11 @@ hr {
 .section{
     padding: 2rem;
 }
-.section h1 {
+.h1 {
     text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    color: var(--dark-gray);
 }
 
 .Ow {
