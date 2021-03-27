@@ -113,7 +113,7 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 600px;
+    max-width: 500px;
     display: block;
     margin: auto;
     margin: 1.5rem 0px;
@@ -186,8 +186,3 @@ hr {
     background-color: white;
 }
 
-@media only screen and (max-width: 725px){
-    .hero-img{
-        max-width: 60%;
-    }
-}
